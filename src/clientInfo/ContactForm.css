@@ -1,0 +1,16 @@
+.form_input {
+  width: 100%;
+  min-width: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input,
+textarea {
+  margin-bottom: 30px;
+}
+.contact_header {
+  margin-bottom: 30px;
+  color: #3c3c3c;
+}

@@ -1,0 +1,54 @@
+.card {
+  margin: 15px;
+  width: 230px;
+  border: 2px solid #ededed;
+  padding: 15px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+.image_container {
+  flex: 6;
+}
+
+.image_container img {
+  width: 180px;
+  margin-bottom: 1rem;
+}
+
+.card-title {
+  margin-bottom: 1rem;
+  font-size: 23px;
+}
+.card-price {
+  padding: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.bag-icon {
+  color: #535353;
+}
+.bag-icon:hover {
+  font-size: 21px;
+}
+.edit_product {
+  text-decoration: none;
+  color: #242424;
+}
+.details a {
+  text-decoration: none;
+  color: #242424;
+}
+.card-price button {
+  border: 1px solid #242424;
+  background-color: transparent;
+  color: #242424;
+  display: flex;
+  gap: 9px;
+  font-size: 15px;
+  align-items: center;
+  padding: 6px;
+  border-radius: 3px;
+}

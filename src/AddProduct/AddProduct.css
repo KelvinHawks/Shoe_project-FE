@@ -1,0 +1,20 @@
+.form-control {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  border: none;
+  width: 14rem;
+  background-color: #ddd;
+  padding: 8px 12px;
+  margin: 8px;
+}

@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+}
+.container {
+  flex-grow: 1;
+}
+.loading {
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+}
+.loading h1 {
+  color: #242424;
+  font-size: 28px;
+}
